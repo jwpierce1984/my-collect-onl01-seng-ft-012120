@@ -1,10 +1,10 @@
 def my_collect (array)
   i = 0
-  collection = []
-  while i < languages.length
-    collection << yield[i]
+  collect = []
+  while i < array.length
+    collect << yield[i]
     i+=1
   end
-  collection
+  collect
 end
 
